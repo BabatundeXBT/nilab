@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list:hover .list-icon {
+  color: blue;
+}
+
+.sev-list:hover{
+  color: blue;
+}
+
+.display-service:hover{
+  .hide{
+    display: block;
+  }
+}
+
+.hide{
+  display: none;
+}
+
