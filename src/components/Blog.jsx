@@ -29,8 +29,8 @@ const Blog = ({header='Latest Articles',pageTitle='from our blog'}) => {
     <>
       <div className="py-12">
         <div className="py-12 text-center">
-          <p className="py-5 text-3xl font-semibold text-blue-700">{pageTitle}</p>
-          <h1 className="text-4xl md:text-6xl text-[#0e223b] font-bold">{header}</h1>
+          <p className="py-5 text-3xl font-semibold text-[blue]">{pageTitle}</p>
+          <h1 className="text-4xl md:text-6xl text-black font-bold">{header}</h1>
         </div>
         <div className="m-auto flex w-[90%] flex-col gap-5 md:w-[75%] md:flex-row">
           {data.map((value, index) => {

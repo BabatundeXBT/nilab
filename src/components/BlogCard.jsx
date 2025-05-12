@@ -3,7 +3,7 @@ import React from "react";
 const BlogCard = ({ img, content }) => {
   return (
     <>
-      <div className="hover:text-blue-500 text-[#0e223b]">
+      <div className="hover:text-[blue] text-black">
         <div className="">
           <div className="shadow-md">
             <a href="">

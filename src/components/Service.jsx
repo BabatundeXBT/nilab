@@ -3,6 +3,7 @@ import ServiceCad from "./ServiceCad";
 import { FaGreaterThan, FaStar, FaStarOfDavid } from "react-icons/fa";
 import { FaStarAndCrescent } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
+import Button from "./ui/Button";
 
 const Service = () => {
   const data = [
@@ -69,12 +70,12 @@ const Service = () => {
         })}
       </div>
       <div className="flex justify-center py-10">
-        <button className="flex rounded-xl bg-[#0e223b] px-7 py-3 font-semibold text-white hover:bg-blue-400 hover:text-black">
+        <Button>
           <NavLink to="">
             VIEW ALL SERVICES{" "}
             <FaGreaterThan className="inline self-center ps-2" />
           </NavLink>
-        </button>
+        </Button>
       </div>
     </div>
   );

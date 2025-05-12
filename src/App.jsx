@@ -6,6 +6,7 @@ import WorkPage from "./components/pages/WorkPage";
 import BlogPage from "./components/pages/BlogPage";
 import AboutPage from "./components/pages/AboutPage";
 import QuotePage from "./components/pages/QuotePage";
+import ServicesPage from "./components/pages/ServicesPage";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/quote" element={<QuotePage />} />
+          <Route path="/service" element={<ServicesPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

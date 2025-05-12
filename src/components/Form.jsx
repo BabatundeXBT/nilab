@@ -5,7 +5,7 @@ const Form = () => {
     <>
       <div className="m-auto w-[90%] md:w-[60%]">
         <div className="mb-10">
-          <h2 className="py-5 text-center text-4xl font-bold text-[#0e223b] md:text-6xl">
+          <h2 className="py-5 text-center text-4xl font-bold text-black md:text-6xl">
             Message us
           </h2>
         </div>
@@ -122,7 +122,7 @@ const Form = () => {
           {/* submit btn  */}
           <button
             type="submit"
-            className="m-auto flex w-full justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="m-auto flex w-full justify-center rounded-lg bg-blue-800 px-5 py-3 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             SEND NOW
           </button>

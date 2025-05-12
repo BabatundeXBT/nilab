@@ -11,8 +11,8 @@ const BlogCaseCard = ({ img, title, subtitle, info }) => {
             </a>
           </div>
           <div className="py-12">
-            <h1 className="font-bold text-blue-500">{title}</h1>
-            <h2 className="py-4 text-3xl font-bold text-[#0e223b] hover:text-blue-500">
+            <h1 className="font-bold text-[blue]">{title}</h1>
+            <h2 className="py-4 text-3xl font-bold text-[#0e223b] hover:text-[blue]">
               <a href="" className="">
                 {subtitle}
               </a>

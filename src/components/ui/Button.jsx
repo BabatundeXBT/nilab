@@ -15,7 +15,7 @@ const Button = ({ children,func }) => {
 
   return (
     <div>
-      <button onClick={func} className="rounded-md bg-blue-400 px-4 py-2 font-semibold text-black hover:bg-[#0e223b] hover:text-white">
+      <button onClick={func} className="rounded-md bg-[blue] px-4 py-2 font-semibold text-white hover:bg-black hover:text-white">
         {children}{func}
       </button>
     </div>

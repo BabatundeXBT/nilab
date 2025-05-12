@@ -1,11 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { FaGreaterThan, FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn, FaX } from "react-icons/fa6";
-import { NavLink } from "react-router-dom";
 import Button from "./ui/Button";
-import HoverService from "./HoverService";
+import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { FaLinkedinIn, FaX } from "react-icons/fa6";
+import { FaGreaterThan, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   // hamburger func
@@ -13,8 +12,6 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  // hoveer on services func
-  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <>
@@ -90,27 +87,20 @@ const Navbar = () => {
               <div className="flex gap-10">
                 <ul className="flex gap-10 self-center font-bold text-slate-400">
                   <li
-                    className="display-service flex hover:text-blue-600"
-                    onMouseEnter={() => setShowDropdown(true)}
-                    onMouseLeave={() => setShowDropdown(false)}
+                    className="display-service flex hover:text-[blue]"
                   >
-                    <NavLink to="">
+                    <NavLink to="service">
                       Services{" "}
                       <FaGreaterThan className="inline self-center ps-2" />
                     </NavLink>
-                    {showDropdown && (
-                      <div className="absolute z-50 ">
-                        <HoverService />
-                      </div>
-                    )}
                   </li>
-                  <li className="hover:text-blue-600">
+                  <li className="hover:text-[blue]">
                     <NavLink to="work">Work</NavLink>
                   </li>
-                  <li className="hover:text-blue-600">
+                  <li className="hover:text-[blue]">
                     <NavLink to="blog">Blog</NavLink>
                   </li>
-                  <li className="hover:text-blue-600">
+                  <li className="hover:text-[blue]">
                     <NavLink to="about">About</NavLink>
                   </li>
                 </ul>
@@ -135,7 +125,7 @@ const Navbar = () => {
                     <div className="self-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="text-blue-500"
+                        className="text-[blue]"
                         width="30"
                         height="30"
                         viewBox="0 0 24 24"
@@ -180,7 +170,7 @@ const Navbar = () => {
                     <div className="self-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="text-blue-500"
+                        className="text-[blue]"
                         width="30"
                         height="30"
                         viewBox="0 0 24 24"
@@ -216,7 +206,7 @@ const Navbar = () => {
                 {/* col3 */}
                 {/* button  */}
                 <div className="my-1">
-                  <button className="flex w-full justify-center rounded-xl border bg-blue-500 px-5 py-3 font-semibold text-[#0e223b] shadow-md hover:bg-[#0e223b] hover:text-white">
+                  <button className="flex w-full justify-center rounded-xl border bg-[blue] px-5 py-3 font-semibold text-white shadow-md hover:bg-black">
                     <NavLink to="work">
                       VIEW OUR WORk{" "}
                       <FaGreaterThan className="inline self-center ps-2" />
@@ -230,16 +220,16 @@ const Navbar = () => {
               <div className="m-auto flex flex-col gap-8">
                 <div className="self-center">
                   <ul className="flex gap-4 text-[15px] font-bold text-slate-400">
-                    <li className="hover:text-blue-600">
-                      <NavLink to="">Services </NavLink>
+                    <li className="hover:text-[blue]">
+                      <NavLink to="service">Services </NavLink>
                     </li>
-                    <li className="hover:text-blue-600">
+                    <li className="hover:text-[blue]">
                       <NavLink to="work">Work</NavLink>
                     </li>
-                    <li className="hover:text-blue-600">
+                    <li className="hover:text-[blue]">
                       <NavLink to="blog">Blog</NavLink>
                     </li>
-                    <li className="hover:text-blue-600">
+                    <li className="hover:text-[blue]">
                       <NavLink to="about">About</NavLink>
                     </li>
                   </ul>

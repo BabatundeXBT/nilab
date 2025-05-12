@@ -7,7 +7,7 @@ const WhyUs = () => {
   return (
     <div className="bg-[#e9e9e9] py-6">
       <div className="m-auto my-20 w-[90%] md:w-[75%]">
-        <h1 className="py-4 text-center text-3xl font-bold text-[#0e223b] md:text-6xl">
+        <h1 className="py-4 text-center text-3xl font-bold text-black md:text-6xl">
           Why Next Innovation Hub?
         </h1>
         <div className="grid grid-cols-1 py-8 md:grid-cols-3">
@@ -15,7 +15,7 @@ const WhyUs = () => {
             <div className="m-auto w-32">
               <img src={flex} alt="" />
             </div>
-            <h3 className="m-auto w-[300px] py-4 text-4xl font-bold text-[#0e223b] md:text-3xl">
+            <h3 className="m-auto w-[300px] py-4 text-4xl font-bold text-black md:text-3xl">
               Client-Centered Approach
             </h3>
             <p className="m-auto pb-5 font-semibold text-slate-400 md:w-[400px]">
@@ -29,7 +29,7 @@ const WhyUs = () => {
             <div className="m-auto w-32">
               <img src={team} alt="" />
             </div>
-            <h3 className="py-4 text-4xl font-bold text-[#0e223b] md:text-3xl">
+            <h3 className="py-4 text-4xl font-bold text-black md:text-3xl">
               Skilled and Smart Team
             </h3>
             <p className="m-auto pb-5 font-semibold text-slate-400 md:w-[400px]">
@@ -43,7 +43,7 @@ const WhyUs = () => {
             <div className="m-auto w-32">
               <img src={clock} alt="" />
             </div>
-            <h3 className="m-auto w-[300px] py-4 text-4xl font-bold text-[#0e223b] md:text-3xl">
+            <h3 className="m-auto w-[300px] py-4 text-4xl font-bold text-black md:text-3xl">
               More Than Just a Service
             </h3>
             <p className="m-auto font-semibold text-slate-400 md:w-[400px]">

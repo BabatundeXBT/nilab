@@ -95,7 +95,7 @@ const HoverService = () => {
               </div>
               <hr />
               <div className="py-8">
-                <ul className="text-l space-y-3 font-bold text-[#0e223b]">
+                <ul className="text-l space-y-3 font-bold text-black">
                   <li className="sev-list flex">
                     <a href="">Search engine optimization</a>
                   </li>

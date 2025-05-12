@@ -5,6 +5,7 @@ import hero2 from "../assets/images/hero2.png";
 import hero3 from "../assets/images/hero3.png";
 import { NavLink } from "react-router-dom";
 import { FaGreaterThan } from "react-icons/fa";
+import Button from "./ui/Button";
 
 const Hero = () => {
   return (
@@ -30,9 +31,10 @@ const Hero = () => {
             leading Web development hub for modern thinkers in California.
           </p>
           <div className="my-14 flex">
-            <button className="flex rounded-xl bg-[#0e223b] px-7 py-3 font-semibold text-white hover:bg-blue-400 hover:text-black">
+            <button className="flex rounded-xl bg-[blue] px-7 py-3 font-semibold text-white hover:bg-black">
               GET STARTED <FaGreaterThan className="inline self-center ps-2" />
             </button>
+
             <div className="self-center">
               <NavLink to="about" className="ps-10 font-semibold">
                 LET'S TALK

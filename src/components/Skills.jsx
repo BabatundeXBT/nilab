@@ -5,7 +5,7 @@ const Skills = () => {
     <>
       <div>
         <div>
-          <h3 className="py-4 text-2xl font-bold text-[#0e223b] md:text-3xl">
+          <h3 className="py-4 text-2xl font-bold text-black md:text-3xl">
             Check out our skills:
           </h3>
           <div className="grid grid-cols-2 gap-5 md:grid-cols-4">
@@ -21,7 +21,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   SEO/SEM/PPC
                 </h3>
               </div>
@@ -38,7 +38,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   Web Design
                 </h3>
               </div>
@@ -55,7 +55,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   Development
                 </h3>
               </div>
@@ -72,7 +72,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   E-commerce
                 </h3>
               </div>
@@ -89,7 +89,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   Prototyping
                 </h3>
               </div>
@@ -106,7 +106,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   Visual Design
                 </h3>
               </div>
@@ -124,7 +124,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   Wireframing
                 </h3>
               </div>
@@ -141,7 +141,7 @@ const Skills = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-l py-4 font-bold text-[#0e223b] md:text-xl">
+                <h3 className="text-l py-4 font-bold text-black md:text-xl">
                   User Research
                 </h3>
               </div>

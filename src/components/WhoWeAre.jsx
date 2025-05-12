@@ -9,10 +9,10 @@ const WhoWeAre = () => {
       <div className="m-auto my-16 flex w-[90%] flex-col-reverse justify-between gap-20 md:w-[75%] md:flex-row">
         <div className="w-[100%]">
           <div className="pt-10">
-            <h3 className="text-xl font-bold text-blue-500">
+            <h3 className="text-xl font-bold text-[blue]">
               Mastermind team behind solution
             </h3>
-            <h1 className="py-4 text-4xl font-bold text-[#0e223b] md:text-6xl">
+            <h1 className="py-4 text-4xl font-bold text-black md:text-6xl">
               Who we are
             </h1>
             <p className="pb-5 font-semibold text-slate-400">

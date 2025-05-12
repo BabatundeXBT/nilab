@@ -55,7 +55,7 @@ const popularArticles = [...articles].sort((a, b) => a.id - b.id);
 const ArticleCard = ({ article}) => {
   return (
     <div className="mb-12">
-      <div className="flex flex-col md:flex-row gap-6 hover:text-blue-400 ">
+      <div className="flex flex-col md:flex-row gap-6 hover:text-[blue] ">
         <div className="w-full md:w-1/3">
           <img 
             src={article.image} 
@@ -76,7 +76,7 @@ const ArticleCard = ({ article}) => {
 
 const PopularArticle = ({ article }) => {
   return (
-    <div className="mb-8 border-b border-gray-200 pb-6 hover:text-blue-400">
+    <div className="mb-8 border-b border-gray-200 pb-6 hover:text-[blue]">
       <h3 className="text-lg font-bold text-navy-800 mb-2">
         {article.title}
       </h3>
@@ -110,13 +110,13 @@ export default function BlogLayout() {
             {/* Pagination */}
             <div className="flex mt-8">
               <button 
-                className={`h-10 w-10 flex items-center justify-center rounded ${currentPage === 1 ? 'bg-blue-400 text-white' : 'bg-white text-gray-700'}`}
+                className={`h-10 w-10 flex items-center justify-center rounded ${currentPage === 1 ? 'bg-[blue] text-white' : 'bg-white text-gray-700'}`}
                 onClick={() => handlePageChange(1)}
               >
                 1
               </button>
               <button 
-                className={`h-10 w-10 flex items-center justify-center rounded ml-2 ${currentPage === 2 ? 'bg-blue-400 text-white' : 'bg-white text-gray-700'}`}
+                className={`h-10 w-10 flex items-center justify-center rounded ml-2 ${currentPage === 2 ? 'bg-[blue] text-white' : 'bg-white text-gray-700'}`}
                 onClick={() => handlePageChange(2)}
               >
                 2
@@ -136,7 +136,7 @@ export default function BlogLayout() {
           {/* Sidebar */}
           <div className="w-full lg:w-1/3">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h2 className="text-3xl font-bold text-blue-400 mb-8">Popular articles</h2>
+              <h2 className="text-3xl font-bold text-[blue] mb-8">Popular articles</h2>
               {popularArticles.map(article => (
                 <PopularArticle key={article.id} article={article} />
               ))}

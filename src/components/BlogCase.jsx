@@ -29,7 +29,7 @@ const BlogCase = ({ header = "Case Studies" }) => {
     <>
       <div className="py-12">
         <div className="py-12 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-[#0e223b]">{header}</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-black">{header}</h1>
         </div>
         <div className="m-auto flex w-[90%] flex-col gap-5 md:w-[75%] md:flex-row">
           {data.map((value, index) => {

@@ -1,5 +1,9 @@
 import React from "react";
 import { useState } from "react";
+import Button from "../ui/Button";
+import BlogCase from "../BlogCase";
+import BlogCaseCard from "../BlogCaseCard";
+import { FaGreaterThan } from "react-icons/fa";
 import kids from "../../assets/images/kids.png";
 import iflow from "../../assets/images/iflow.png";
 import case1 from "../../assets/images/case1.png";
@@ -10,10 +14,6 @@ import gadgets from "../../assets/images/gadgets.png";
 import trainer from "../../assets/images/trainer.png";
 import blockchain from "../../assets/images/blockchain.png";
 import realEstate from "../../assets/images/real-estate.png";
-import BlogCaseCard from "../BlogCaseCard";
-import BlogCase from "../BlogCase";
-import Button from "../ui/Button";
-import { FaGreaterThan } from "react-icons/fa";
 
 const WorkPage = () => {
   const [visibleCount, setVisibleCount] = useState(6);
@@ -100,10 +100,10 @@ const WorkPage = () => {
         {/* hero section  */}
         <div className="m-auto my-16 w-[95%] md:w-[75%]">
           <div className="text-center">
-            <h2 className="m-auto w-[60%] text-4xl font-bold text-[#0e223b] md:text-7xl">
+            <h2 className="m-auto w-[60%] text-4xl font-bold text-black md:text-7xl">
               Case Studies
             </h2>
-            <h3 className="py-6 text-2xl font-bold text-[#0e223b]">
+            <h3 className="py-6 text-2xl font-bold text-black">
               Making our client's brands shine brighter since 2006
             </h3>
             <p className="m-auto w-[370px] pb-5 text-xl font-semibold text-slate-400 md:w-[700px]">
@@ -130,15 +130,7 @@ const WorkPage = () => {
               })}
             </div>
           </div>
-          {/* <div className="flex justify-center pt-5">
-            {/* <Button>LOAD MORE</Button> 
-            {visibleCount < data.length && (
-              <div className="flex justify-center pt-5">
-                <button onClick={handleLoadMore}>load more</button>
-                {/* <Button onClick={handleLoadMore}>LOAD MORE</Button> 
-              </div>
-            )}
-          </div> */}
+         
           <div className="flex justify-center pt-5">
             {isLoading ? (
               <div className="flex items-center gap-2 text-lg font-semibold text-blue-600">
@@ -168,7 +160,7 @@ const WorkPage = () => {
               visibleCount < data.length && (
                 <button
                   onClick={handleLoadMore}
-                  className="rounded-md bg-blue-400 px-4 py-2 font-semibold text-black hover:bg-[#0e223b] hover:text-white"
+                  className="rounded-md bg-[blue] px-4 py-2 font-semibold text-white hover:bg-black"
                 >
                   LOAD MORE
                 </button>
@@ -180,13 +172,13 @@ const WorkPage = () => {
         {/* services link  */}
         <div className="my-20">
           <div>
-            <h2 className="m-auto py-10 text-center text-4xl font-bold text-[#0e223b] md:text-6xl">
+            <h2 className="m-auto py-10 text-center text-4xl font-bold text-black md:text-6xl">
               Awesome services
             </h2>
           </div>
           <div className="m-auto grid w-[90%] grid-cols-1 justify-between gap-4 md:w-[60%] md:grid-cols-3 md:pt-8">
             <div className="ms-8 md:ms-0">
-              <ul className="space-y-4 text-xl font-bold text-[#0e223b]">
+              <ul className="space-y-4 text-xl font-bold text-black">
                 <li className="list flex">
                   <FaGreaterThan className="list-icon self-center pr-2" />
                   <a href="">User experience design</a>
@@ -206,7 +198,7 @@ const WorkPage = () => {
               </ul>
             </div>
             <div className="ms-8 md:ms-0">
-              <ul className="space-y-4 text-xl font-bold text-[#0e223b]">
+              <ul className="space-y-4 text-xl font-bold text-black">
                 <li className="list flex">
                   <FaGreaterThan className="list-icon self-center pr-2" />
                   <a href="">Software as a service</a>
@@ -226,7 +218,7 @@ const WorkPage = () => {
               </ul>
             </div>
             <div className="ms-8 md:ms-0">
-              <ul className="space-y-4 text-xl font-bold text-[#0e223b]">
+              <ul className="space-y-4 text-xl font-bold text-black">
                 <li className="list flex">
                   <FaGreaterThan className="list-icon self-center pr-2" />
                   <a href="">Pay per click management</a>

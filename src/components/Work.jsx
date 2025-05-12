@@ -55,10 +55,10 @@ const Work = () => {
       <div className="bg-[#e9e9e9] py-28 shadow-md">
         <div className="m-auto mb-16 w-[90%] md:w-[75%]">
           <div className="text-left">
-            <h3 className="text-2xl font-bold text-blue-500">
+            <h3 className="text-2xl font-bold text-[blue]">
               Our latest work
             </h3>
-            <h2 className="py-5 text-4xl font-bold text-[#0e223b] md:text-5xl">
+            <h2 className="py-5 text-4xl font-bold text-black md:text-5xl">
               Case Studies
             </h2>
             <p className="w-[360px] pb-5 text-lg font-semibold text-slate-400 md:w-[400px]">

@@ -8,8 +8,8 @@ const QuotePage = () => {
       <div className="my-10">
         <div>
           <div className="text-center">
-            <h4 className="text-2xl font-semibold text-blue-400">Contact Us</h4>
-            <h2 className="py-5 text-5xl font-bold text-[#0e223b] md:text-7xl">
+            <h4 className="text-2xl font-semibold text-[blue]">Contact Us</h4>
+            <h2 className="py-5 text-5xl font-bold text-black md:text-7xl">
               We are Momentum!
             </h2>
           </div>
@@ -30,18 +30,18 @@ const QuotePage = () => {
           {/* other */}
           <div className="m-auto grid w-[90%] grid-cols-1 content-center md:w-[75%] md:grid-cols-2">
             <div className="justify-self-center text-center">
-              <h2 className="py-5 text-4xl font-bold text-[#0e223b] md:text-6xl">
+              <h2 className="py-5 text-4xl font-bold text-black md:text-6xl">
                 General Inquiries
               </h2>
               <a
                 href="mailto:bbt@gmail.com"
-                className="font-semibold text-slate-500 hover:text-blue-400"
+                className="font-semibold text-slate-500 hover:text-[blue]"
               >
                 bbt@gmail.com
               </a>
             </div>
             <div className="justify-self-center">
-              <h2 className="py-5 text-4xl font-bold text-[#0e223b] md:text-6xl">
+              <h2 className="py-5 text-4xl font-bold text-black md:text-6xl">
                 Social Networks
               </h2>
               <div className="m-auto flex justify-center gap-7">
@@ -63,10 +63,10 @@ const QuotePage = () => {
         </div>
         <div className="m-auto my-5 w-[90%] md:w-[75%]">
           <div className="my-10 text-center">
-            <h4 className="text-2xl font-semibold text-blue-400">
+            <h4 className="text-2xl font-semibold text-[blue]">
               Let's Meet!
             </h4>
-            <h2 className="py-5 text-5xl font-bold text-[#0e223b] md:text-7xl">
+            <h2 className="py-5 text-5xl font-bold text-black md:text-7xl">
               Headquarters!
             </h2>
           </div>
